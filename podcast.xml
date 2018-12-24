@@ -8,10 +8,10 @@
 	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
 	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
 xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
-xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
->
+xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
+
 <channel>
-	<title>Test Andrés Vázquez</title>
+	<title>Entrevistas Andrés Vázquez</title>
 	<atom:link href="https://avdata99.github.io/test-rss-to-all-platforms/podcast.xml" rel="self" type="application/rss+xml" />
 	<link>https://avdata99.github.io/test-rss-to-all-platforms</link>
 	<description>Entrevistas o audios de Andrés Vázquez para probar RSS y publicación en plataformas</description>
@@ -60,7 +60,8 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 		blubrry="https://www.blubrry.com/geeknewscentral/" 
 		stitcher="http://www.stitcher.com/podcast/geek-news-central-podcast/geek-news-central-audio" 
 		tunein="http://tunein.com/radio/Geek-News-Central-p55779/" 
-		spotify="https://open.spotify.com/show/1CZaaddm3cjzb0EPVVQcVn"></rawvoice:subscribe>
+		spotify="https://open.spotify.com/show/1CZaaddm3cjzb0EPVVQcVn">
+	</rawvoice:subscribe>
 	<item>
 		<title>Charla en el Podcast de ILDA</title>
 		<link>https://andresvazquez.com.ar/blog/en-el-podcast-de-ilda-los-datos-cerca-del-vecino/</link>
