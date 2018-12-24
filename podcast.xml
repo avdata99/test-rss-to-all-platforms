@@ -55,14 +55,19 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
 	<rawvoice:donate href="https://andresvazquez.com.ar/donate">Donate AV</rawvoice:donate>
 	<rawvoice:subscribe 
 		feed="https://avdata99.github.io/test-rss-to-all-platforms/podcast.xml"  
-		html="https://andresvazquez.com.ar/" 
-		<!-- itunes="https://itunes.apple.com/us/podcast/geek-news-central-audio/id73331167" -->
-		<!-- blubrry="https://www.blubrry.com/geeknewscentral/" -->
-		<!-- stitcher="http://www.stitcher.com/podcast/geek-news-central-podcast/geek-news-central-audio" -->
-		<!-- tunein="http://tunein.com/radio/Geek-News-Central-p55779/" -->
-		<!-- spotify="https://open.spotify.com/show/1CZaaddm3cjzb0EPVVQcVn" -->
-		>
+		html="https://andresvazquez.com.ar/">
 	</rawvoice:subscribe>
+
+	<!-- mejorar con los otros links <rawvoice:subscribe 
+		feed="https://avdata99.github.io/test-rss-to-all-platforms/podcast.xml"  
+		html="https://andresvazquez.com.ar/"
+		itunes="https://itunes.apple.com/us/podcast/geek-news-central-audio/id73331167"
+		blubrry="https://www.blubrry.com/geeknewscentral/"
+		stitcher="http://www.stitcher.com/podcast/geek-news-central-podcast/geek-news-central-audio"
+		tunein="http://tunein.com/radio/Geek-News-Central-p55779/"
+		spotify="https://open.spotify.com/show/1CZaaddm3cjzb0EPVVQcVn"
+		></rawvoice:subscribe> -->
+	
 
 	<!-- cada una de las publicaciones -->
 	<item>
