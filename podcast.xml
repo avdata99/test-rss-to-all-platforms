@@ -63,6 +63,8 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
 		<!-- spotify="https://open.spotify.com/show/1CZaaddm3cjzb0EPVVQcVn" -->
 		>
 	</rawvoice:subscribe>
+
+	<!-- cada una de las publicaciones -->
 	<item>
 		<title>Charla en el Podcast de ILDA</title>
 		<link>https://andresvazquez.com.ar/blog/en-el-podcast-de-ilda-los-datos-cerca-del-vecino/</link>
@@ -83,6 +85,29 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
 		<itunes:explicit>clean</itunes:explicit>
 		<itunes:duration>39:03</itunes:duration>
 		<rawvoice:embed>&lt;iframe src=&quot;https://avdata99.github.io/test-rss-to-all-platforms/audios/Podcast_ILDA_S01E03.mp3&gt;&lt;/iframe&gt;</rawvoice:embed>
-		</item>
+	</item>
+
+	<item>
+		<title>Charla con el equipo de Radio Universidad de La Plata</title>
+		<link>https://andresvazquez.com.ar/blog/charla-con-radio-universidad-de-la-plata-sobre-opendata/</link>
+		<pubDate>Fri, 6 Nov 2014 10:15:21 +0300</pubDate>
+		<guid isPermaLink="false">https://andresvazquez.com.ar/blog/charla-con-radio-universidad-de-la-plata-sobre-opendata/</guid>
+		<comments>https://andresvazquez.com.ar/blog/charla-con-radio-universidad-de-la-plata-sobre-opendata/</comments>
+		<wfw:commentRss>https://andresvazquez.com.ar/blog/charla-con-radio-universidad-de-la-plata-sobre-opendata/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<category><![CDATA[Podcast]]></category>
+		<description>Charla con el equipo de Radio Universidad de La Plata en el programa ETERDATA</description>
+		<content:encoded><![CDATA[Charla con el equipo de Radio Universidad de La Plata en el programa ETERDATA]]></content:encoded>
+		<enclosure url="https://avdata99.github.io/test-rss-to-all-platforms/audios/Eterdata-extracto-Entrevista.mp3" 
+			length="54801961" 
+			type="audio/mpeg" />
+		<itunes:subtitle>Charla con el equipo de Radio Universidad de La Plata</itunes:subtitle>
+		<itunes:summary><![CDATA[Charla con en equipo de Radio Universidad de La Plata sobre datos abiertos ... ]]></itunes:summary>
+		<itunes:author>Andrés Vázquez</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		<itunes:duration>30:07</itunes:duration>
+		<rawvoice:embed>&lt;iframe src=&quot;https://avdata99.github.io/test-rss-to-all-platforms/audios/Eterdata-extracto-Entrevista.mp3&gt;&lt;/iframe&gt;</rawvoice:embed>
+	</item>
+
 </channel>
 </rss>
