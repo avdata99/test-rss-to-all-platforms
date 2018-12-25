@@ -11,7 +11,6 @@
 		<googleplay:description>Audio donde participé y guardo como archivo</googleplay:description>
 		<googleplay:explicit>No</googleplay:explicit>
 		<!-- <googleplay:category text="CATEGORY NAME HERE"/> -->
-
         
         <item>
 			<title>Charla con el equipo de Radio Universidad de La Plata</title>
@@ -35,8 +34,7 @@
 			<pubDate>Fri, 20 Jul 2018 15:55:23 +0300</pubDate>
 		</item>
         
-
-		</channel>
+	</channel>
 </rss>
 
 
