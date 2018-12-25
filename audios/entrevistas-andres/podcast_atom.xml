@@ -31,8 +31,6 @@
             
             <enclosure url="https://avdata99.github.io/test-rss-to-all-platforms/audios/entrevistas-andres/Eterdata-extracto-Entrevista.mp3" length="15712863" type="audio/mpeg"/>
 
-            <itunes:image href="https://avdata99.github.io/test-rss-to-all-platforms/audios/entrevistas-andres/audios/entrevistas-andres/Eterdata-extracto-Entrevista.png" />
-
         </item>
         
         <item>
@@ -43,8 +41,6 @@
             <description>Entrevista en el podcast de la Iniciativa Latginoamericana de Datos Abiertos. Con Silvana Fumega y JuanI Belbis.</description>
             
             <enclosure url="https://avdata99.github.io/test-rss-to-all-platforms/audios/entrevistas-andres/Podcast_ILDA_S01E03.mp3" length="56247857" type="audio/mpeg"/>
-
-            <itunes:image href="https://avdata99.github.io/test-rss-to-all-platforms/audios/entrevistas-andres/audios/entrevistas-andres/Podcast_ILDA_S01E03.png" />
 
         </item>
         

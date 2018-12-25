@@ -4,6 +4,8 @@
         <title>{{ titulo }}</title>
         <link>{{ link }}</link>
         <description>{{ descripcion }}</description>
+        <itunes:summary>{{ descripcion }}</itunes:summary>
+        <itunes:author>{{ autor }}</itunes:author>
         <language>{{ lenguaje }}</language>
         <ttl>{{ ttl_minutos }}</ttl>
         <lastBuildDate>{{ ultima_compilacion }}</lastBuildDate>
@@ -13,7 +15,8 @@
             <url>{{ imagen_url }}</url>
             <link>{{ imagen_link }}</link>
         </image>
-
+        <itunes:image href="{{ imagen_url }}" />
+        <itunes:explicit>No</itunes:explicit>
         {% if webmaster_email %}
         <webMaster>{{ webmaster_email }}</webMaster>
         {% endif %}
@@ -29,6 +32,7 @@
             <link>{{ item_link }}</link>
             <pubDate>{{ item.fecha_publicacion }}</pubDate>
             <description>{{ item.descripcion }}</description>
+            <itunes:summary>{{ item.descripcion }}</itunes:summary>
             {# aqui va la URL al audio, lo importante #}
             <enclosure url="{{ item.url_audio }}" length="{{ item.audio_size_bytes }}" type="audio/mpeg"/>
 

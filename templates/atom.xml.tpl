@@ -31,8 +31,6 @@
             {# aqui va la URL al audio, lo importante #}
             <enclosure url="{{ item.url_audio }}" length="{{ item.audio_size_bytes }}" type="audio/mpeg"/>
 
-            <itunes:image href="{{ item.url_imagen }}" />
-
         </item>
         {% endfor %}
 

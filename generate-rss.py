@@ -118,7 +118,7 @@ for filename in os.listdir('templates'):
         file_resultado.close()
 
         url_rss = '{}/{}/podcast_{}'.format(base_url, directorio, base_template)
-        print(colored('Se genero el archivo podcast.xml. Una vez subido el feed a compartir estará en el link {}'.format(url_rss), 'green'))
+        print(colored('Se genero RSS para {}. Una vez subido el feed a compartir estará en el link {}'.format(base_template, url_rss), 'green'))
 
 
 
