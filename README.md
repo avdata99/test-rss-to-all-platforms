@@ -75,7 +75,21 @@ Con el comando _generate-rss_ se puede procesar (por primera vez o como actualiz
 
 Ejemplo (usar con el nombre de la carpeta requerida)
 ```
-python generate-rss.py audios/entrevistas-andre
+python generate-rss.py audios/entrevistas-andres
+```
+
+Este comando informará si hay errores y si no fuera así mostraría los links finales de los feeds para cada plataforma.  
+Ejemplo:
+
+```
+Template encontrado googleplay.xml.tpl
+Se genero RSS para googleplay.xml. Una vez subido el feed a compartir estará en el link https://avdata99.github.io/test-rss-to-all-platforms/audios/entrevistas-andres/podcast_googleplay.xml
+
+Template encontrado atom.xml.tpl
+Se genero RSS para atom.xml. Una vez subido el feed a compartir estará en el link https://avdata99.github.io/test-rss-to-all-platforms/audios/entrevistas-andres/podcast_atom.xml
+
+Template encontrado itunes.xml.tpl
+Se genero RSS para itunes.xml. Una vez subido el feed a compartir estará en el link https://avdata99.github.io/test-rss-to-all-platforms/audios/entrevistas-andres/podcast_itunes.xml
 ```
 
 ## Templates
@@ -86,5 +100,6 @@ El comando _generate-rss_ creará una archivo por cada template existente.
 Para entender el estandar XML/RSS extraje info de:
  - [GeekNewsCentral](https://geeknewscentral.com/podcast.xml)
  - [Shouldertheboulder](http://shouldertheboulder.com/article/generate-your-itunespodcast-rss-feed-with-rock)
- - [SysAdministrivia](https://sysadministrivia.com/news/howto-podcast  )
+ - [SysAdministrivia](https://sysadministrivia.com/news/howto-podcast)
+
 
