@@ -80,7 +80,10 @@ python generate-rss.py audios/entrevistas-andre
 
 ## Templates
 Los feeds RSS generados dependen del destinatario. Hay especificaciones para Itunes, Google y otros. La idea es hacer variados feeds compatibles con todas las necesidades.  
-Extraje info de:
+La carpeta _templates_ tienen un archivo (template Jinja2) por cada formato de salida.  
+El comando _generate-rss_ creará una archivo por cada template existente.  
+
+Para entender el estandar XML/RSS extraje info de:
  - [GeekNewsCentral](https://geeknewscentral.com/podcast.xml)
  - [Shouldertheboulder](http://shouldertheboulder.com/article/generate-your-itunespodcast-rss-feed-with-rock)
  - [SysAdministrivia](https://sysadministrivia.com/news/howto-podcast  )
