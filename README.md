@@ -43,9 +43,15 @@ Ejemplo (los campos podrían cambiar, revisar alguno ya funcionando en este repo
 En esa carpeta colocar todos los archivos MP3 (por ahora único formato compatible).  
 Con cada emisión se coloca un audio nuevo y se repiten los pasos que siguen.  
 
+#### Desde RadioCut
 Si querés bajar tus **recortes de RadioCut** para subir a alguna plataforma y generar tu propio RSS acá tenes una opción:
-https://github.com/mgaitan/radiocut_downloader
+https://github.com/mgaitan/radiocut_downloader.  
 
+Ejemplo para descargar un recorte (se hace desde nuestro nuevo directorio así el archivo final queda allí):
+
+```
+radiocut https://radiocut.fm/audiocut/eugenia-monte-este-fallo-es-historico-para-el-feminismo/
+```
 
 ### Subir una imagen
 Por cada audio se requiere en la misma carpeta una imagen **con exactamente el mismo nombre** del audio pero extensión cambiada (_png_ o _jpg_).  
