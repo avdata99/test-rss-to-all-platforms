@@ -1,0 +1,53 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Entrevistas y audios de Andrés Vázquez</title>
+        <link>https://andresvazquez.com.ar/</link>
+        <description>Audio donde participé y guardo como archivo</description>
+        <language>es-ar</language>
+        <ttl>240</ttl>
+        <lastBuildDate></lastBuildDate>
+
+        <image>
+            <title>Entrevistas Andrés Vázquez</title>
+            <url>https://andresvazquez.com.ar/blog/wp-content/uploads/2016/11/Selecci%C3%B3n_419-1024x512.png</url>
+            <link>https://andresvazquez.com.ar/</link>
+        </image>
+
+        
+        <webMaster>andres@data99.com.ar</webMaster>
+        
+
+        
+        <managingEditor>andres@data99.com.ar</managingEditor>
+        
+
+        
+        <item>
+            <title>Charla con el equipo de Radio Universidad de La Plata</title>
+            <guid>https://andresvazquez.com.ar/blog/charla-con-radio-universidad-de-la-plata-sobre-opendata/</guid>
+            <link></link>
+            <pubDate>Fri, 6 Nov 2014 10:15:21 +0300</pubDate>
+            <description>Entrevista con el programa ETER DATA de Radio Universidad de La Plata sobre OpenDataCórdoba y proyectos de datos abiertos</description>
+            
+            <enclosure url="https://avdata99.github.io/test-rss-to-all-platforms/audios/entrevistas-andres//Eterdata-extracto-Entrevista.mp3" length="15712863" type="audio/mpeg"/>
+
+            <itunes:image href="https://avdata99.github.io/test-rss-to-all-platforms/audios/entrevistas-andres//audios/entrevistas-andres//Eterdata-extracto-Entrevista.png" />
+
+        </item>
+        
+        <item>
+            <title>Charla en el Podcast de ILDA</title>
+            <guid>https://andresvazquez.com.ar/blog/en-el-podcast-de-ilda-los-datos-cerca-del-vecino/</guid>
+            <link></link>
+            <pubDate>Fri, 20 Jul 2018 15:55:23 +0300</pubDate>
+            <description>Entrevista en el podcast de la Iniciativa Latginoamericana de Datos Abiertos. Con Silvana Fumega y JuanI Belbis.</description>
+            
+            <enclosure url="https://avdata99.github.io/test-rss-to-all-platforms/audios/entrevistas-andres//Podcast_ILDA_S01E03.mp3" length="56247857" type="audio/mpeg"/>
+
+            <itunes:image href="https://avdata99.github.io/test-rss-to-all-platforms/audios/entrevistas-andres//audios/entrevistas-andres//Podcast_ILDA_S01E03.png" />
+
+        </item>
+        
+
+    </channel>
+</rss>
