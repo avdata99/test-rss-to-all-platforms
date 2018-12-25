@@ -1,7 +1,10 @@
 # Pruebas para un RSS compatible con múltiples plataformas
 
 Versión uno copiada de acá: https://geeknewscentral.com/podcast.xml  
+Se aprendio de RSS acá:  
+http://shouldertheboulder.com/article/generate-your-itunespodcast-rss-feed-with-rock  
 
+Ejemplo de programación lineal y de estructuras básicas de datos en Python.  
 
 # Otros
 
